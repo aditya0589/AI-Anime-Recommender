@@ -1,3 +1,11 @@
+import sys
+
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass
+
 from src.vector_store import VectorStoreBuilder
 from src.recommender import AnimeRecommender
 from config.config import GROQ_API_KEY, MODEL_NAME
@@ -39,3 +47,4 @@ class AnimeRecommendationPipeline:
         
 
         
+
