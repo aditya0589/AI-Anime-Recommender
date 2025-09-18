@@ -17,6 +17,10 @@
 <img width="1241" height="331" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/f0d7fdf5-a56d-4e19-9e3f-e199adac6ff8" />
 
 
+View the deployed app here : https://ai-anime-recommender.streamlit.app/
+
+
+
 
 
 
