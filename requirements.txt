@@ -7,3 +7,6 @@ pandas
 python-dotenv
 sentence-transformers
 langchain_huggingface
+
+pysqlite3-binary
+
