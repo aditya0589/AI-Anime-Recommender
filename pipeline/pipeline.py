@@ -21,7 +21,7 @@ class AnimeRecommendationPipeline:
 
         except Exception as e:
             logger.exception(e)
-            raise CustomException("Error during initialization")
+            raise CustomException("Error during initialization", e)
         
 
     def recommend(self,query:str) -> str:
@@ -37,4 +37,5 @@ class AnimeRecommendationPipeline:
             raise CustomException("Error during getting recommendation" , e)
             
         
+
         
